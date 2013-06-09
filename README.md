@@ -4,17 +4,17 @@ This package contains all of the core runtime components for the Interface SDK u
 
 Included are:
 
-*a Modules folder, where all modules are stored
-*a version of the HomeScreenModule, which is a basic module launcher
-*manifest.xml, which specifies the default module to run
-*openni_config.xml, which provides configurations for OpenNI
-*interfacesdk-X.X.X-jar-with-dependencies.jar, which is the jar used to run the program (X.X.X will correspond to the version of the SDK you select)
+1. a Modules folder, where all modules are stored
+2. a version of the HomeScreenModule, which is a basic module launcher
+3. manifest.xml, which specifies the default module to run
+4. openni_config.xml, which provides configurations for OpenNI
+5. interfacesdk-X.X.X-jar-with-dependencies.jar, which is the jar used to run the program (X.X.X will correspond to the version of the SDK you select)
 
 To run your module with this package, simply:
 
 1. Ensure that the Microsoft Kinect is plugged in and properly installed
 2. Create a jar from your module
-NOTE: Make sure you have a manifest.xml in your module, or it won't load!
+**NOTE:** Make sure you have a manifest.xml in your module, or it won't load!
 3. Place your jar into the modules/ folder
 4. Run a terminal
 5. Run the command "java -jar interfacesdk-X.X.X-jar-with-dependencies.jar --manifest manifest.xml" 
